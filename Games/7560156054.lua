@@ -127,6 +127,7 @@ do
             tP:AddToggle("auto_hatch", {Text = "Auto hatch",Default = false})
             tP:AddToggle("auto_x2_hatch", {Text = "Auto x2 hatch",Default = false})
             tP:AddToggle("auto_x3_chests", {Text = "Auto x3 hatch",Default = false})
+            tP:AddToggle("auto_x4_chests", [Text = "Auto x4 hatch",Default = false])
             local luckB = tP:AddButton("Unlock x2 luck boost",function() plr.Boosts.DoubleLuck.isActive.Value = true end)
             luckB:AddTooltip("Might be visual, not sure")
             tP:AddDivider()
