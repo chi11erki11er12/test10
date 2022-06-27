@@ -173,7 +173,7 @@ do
                 function() Gamepass.Value = Gamepass.Value .. ";autorebirth;" end)
         end
         do -- Credits
-            tCredits:AddLabel("Script: <font color='#3EB489'>Trustsense</font>")
+            tCredits:AddLabel("Script: <font color='#3EB489'>chill</font>")
             tCredits:AddLabel("Hot library: <font color='#ADD8E6'>wally</font>")
             tCredits:AddLabel("Additional Help: <font color='#5865F2'>Discord !0000</font>")
         end
