@@ -25,7 +25,7 @@ do
     local games
     local checker = pcall(function()
         games = game:HttpGet(
-            "https://raw.githubusercontent.com/TrustsenseDev/UnknownHub-V1/main/Games/" .. game.PlaceId .. ".lua")
+            "https://raw.githubusercontent.com/chi11erki11er12/test10/main/Games/" .. game.PlaceId .. ".lua")
     end)
     if checker then
         loadstring(games)()
